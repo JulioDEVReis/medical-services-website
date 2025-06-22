@@ -5,14 +5,12 @@ const images = import.meta.glob('../../assets/images/gallery/*.jpg', { eager: tr
 
 // Criar um array de objetos com src e titulo para cada imagem
 const imageList = Object.entries(images).map(([path, module]) => {
-    // Verificar se module é um objeto e tem propriedade default
-    if (module && typeof module == 'object' && 'default' in module) {
-        // Extrai o nome do arquivo e converte para um titulo da imagem
-        const title = path.split('/').pop().replace(/_/g, ' ').replace('.jpg', '');
-        return { src: module.default, title};
-    }
-    // Caso não seja válido retorna branco
-    return { src: '', title: ''};
+    const fileName = path.split('/').pop() || "";
+    const title = fileName.replace(/_/g, ' ').replace('.jpg', '');
+    
+    return {
+        src: (module as { default: string }).default, title
+    };
 });
 
 function Gallery() {
