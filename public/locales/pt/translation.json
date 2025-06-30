@@ -1,0 +1,102 @@
+{
+  "navbar": {
+    "home": "Início",
+    "services": "Serviços",
+    "doctors": "Médicos", 
+    "contact": "Contacto",
+    "about": "Sobre Nós"
+  },
+  "gallery": {
+    "title": "Serviços Médicos",
+    "images": {
+        "General_Medicine": {
+            "title": "Medicina Geral",
+            "specialities": "Cuidados primários abrangentes para adultos e crianças, focando na prevenção, diagnóstico e tratamento de doenças comuns."
+        },
+        "Emergency": {
+            "title": "Emergência",
+            "specialities": "Atenção médica imediata para condições urgentes e potencialmente fatais, disponível 24/7."
+        },
+        "Clinical_Analisys": {
+            "title": "Análises Clínicas",
+            "specialities": "Testes laboratoriais e análises para apoiar diagnósticos precisos e planeamento de tratamento."
+        },
+        "Cardiology": {
+            "title": "Cardiologia",
+            "specialities": "Diagnóstico e tratamento de doenças cardíacas e vasculares, com cuidados cardíacos avançados."
+        },
+        "General_Surgery": {
+            "title": "Cirurgia Geral",
+            "specialities": "Intervenções cirúrgicas para uma ampla gama de condições, realizadas por cirurgiões experientes."
+        },
+        "Dermatology": {
+            "title": "Dermatologia",
+            "specialities": "Cuidados e tratamento de distúrbios da pele, cabelo e unhas, incluindo procedimentos cosméticos."
+        },
+        "Endocrinology": {
+            "title": "Endocrinologia",
+            "specialities": "Gestão de distúrbios hormonais e doenças metabólicas, incluindo diabetes e condições da tiroide."
+        },
+        "Physiotherapy": {
+            "title": "Fisioterapia",
+            "specialities": "Reabilitação e fisioterapia para restaurar movimento e função após lesão ou doença."
+        },
+        "Gynecology": {
+            "title": "Ginecologia",
+            "specialities": "Serviços de saúde focados na saúde reprodutiva e bem-estar feminino."
+        },
+        "Imaging": {
+            "title": "Imagiologia",
+            "specialities": "Serviços avançados de diagnóstico por imagem, incluindo raios-X, ressonância magnética e tomografia computadorizada."
+        },
+        "Neurology": {
+            "title": "Neurologia",
+            "specialities": "Diagnóstico e tratamento de distúrbios do sistema nervoso, incluindo condições do cérebro e medula espinhal."
+        },
+        "Nutrition": {
+            "title": "Nutrição",
+            "specialities": "Aconselhamento nutricional personalizado e planeamento dietético para apoiar a saúde geral."
+        },
+        "Dentistry": {
+            "title": "Odontologia",
+            "specialities": "Cuidados dentários abrangentes, incluindo tratamentos preventivos, restauradores e cosméticos."
+        },
+        "Ophthalmology": {
+            "title": "Oftalmologia",
+            "specialities": "Serviços de cuidados oculares, incluindo correção da visão, gestão de doenças e cirurgia."
+        },
+        "Otorhinology": {
+            "title": "Otorrinolaringologia",
+            "specialities": "Diagnóstico e tratamento de distúrbios do ouvido, nariz e garganta."
+        },
+        "Pediatrics": {
+            "title": "Pediatria",
+            "specialities": "Cuidados médicos para bebés, crianças e adolescentes, focando no crescimento e desenvolvimento."
+        },
+        "Pneumology": {
+            "title": "Pneumologia",
+            "specialities": "Tratamento de doenças do sistema respiratório, incluindo asma e doença pulmonar obstrutiva crónica."
+        },
+        "Psychology": {
+            "title": "Psicologia",
+            "specialities": "Serviços de saúde mental, incluindo aconselhamento, terapia e avaliações psicológicas."
+        },
+        "Radiology": {
+            "title": "Radiologia",
+            "specialities": "Imagiologia médica para diagnosticar e orientar o tratamento de várias condições."
+        },
+        "Urology": {
+            "title": "Urologia",
+            "specialities": "Cuidados para distúrbios do trato urinário e sistema reprodutivo masculino."
+        }
+    }  
+  },
+  "aboutUs": {
+    "title": "Sobre a Clínica Vida",
+    "content": {
+      "paragraph1": "Na Clínica Vida, dedicamo-nos a fornecer cuidados de saúde abrangentes e compassivos à nossa comunidade. A nossa equipa de médicos e especialistas experientes está comprometida em fornecer serviços médicos de alta qualidade numa ampla gama de especialidades, incluindo medicina geral, cardiologia, pediatria e muito mais.",
+      "paragraph2": "As nossas instalações modernas estão equipadas com a mais recente tecnologia, garantindo diagnósticos precisos e tratamentos eficazes. Acreditamos numa abordagem centrada no paciente, onde cada indivíduo é tratado com respeito, empatia e cuidado personalizado.",
+      "paragraph3": "Seja para consultas de rotina, consultas especializadas ou cuidados de emergência, a Clínica Vida está aqui para apoiar a sua saúde e bem-estar em cada passo do caminho."
+    }
+  }
+}

@@ -63,6 +63,73 @@
     font-weight: 500;
 }
 
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(44, 90, 160, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.modal-window {
+    background: rgba(255,255,255,0.97);
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(44,90,160,0.18);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    position: relative;
+    max-width: 700px;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #2c5aa0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.modal-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(44,90,160,0.10);
+}
+
+.modal-description {
+    flex: 1;
+}
+
+.modal-description h3 {
+    margin-top: 0;
+    color: #2c5aa0;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.modal-description p {
+    color: #333;
+    font-size: 1.05rem;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
 /* MEDIA QUERIES */
 
 /* Tablet */
@@ -80,6 +147,17 @@
     .gallery-headline {
         font-size: 1.4rem;
         margin-top: 80px;
+    }
+
+    .modal-content {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+  
+    .modal-image img {
+        width: 90vw;
+        height: 160px;
     }
 }
 

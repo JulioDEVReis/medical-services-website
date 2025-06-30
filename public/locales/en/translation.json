@@ -1,0 +1,102 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services", 
+    "doctors": "Doctors",
+    "contact": "Contact",
+    "about": "About Us"
+  },
+  "gallery": {
+    "title": "Medical Services",
+    "images": {
+        "General_Medicine": {
+            "title": "General Medicine",
+            "specialities": "Comprehensive primary care for adults and children, focusing on prevention, diagnosis, and treatment of common illnesses."
+        },
+        "Emergency": {
+            "title": "Emergency",
+            "specialities": "Immediate medical attention for urgent and life-threatening conditions, available 24/7."
+        },
+        "Clinical_Analisys": {
+            "title": "Clinical Analisys",
+            "specialities": "Laboratory testing and analysis to support accurate diagnosis and treatment planning."
+        },
+        "Cardiology": {
+            "title": "Cardiology",
+            "specialities": "Diagnosis and treatment of heart and vascular diseases, with advanced cardiac care."
+        },
+        "General_Surgery": {
+            "title": "General Surgery",
+            "specialities": "Surgical interventions for a wide range of conditions, performed by experienced surgeons."
+        },
+        "Dermatology": {
+            "title": "Dermatology",
+            "specialities": "Care and treatment of skin, hair, and nail disorders, including cosmetic procedures."
+        },
+        "Endocrinology": {
+            "title": "Endocrinology",
+            "specialities": "Management of hormonal disorders and metabolic diseases, including diabetes and thyroid conditions."
+        },
+        "Physiotherapy": {
+            "title": "Physiotherapy",
+            "specialities": "Rehabilitation and physical therapy to restore movement and function after injury or illness."
+        },
+        "Gynecology": {
+            "title": "Gynecology",
+            "specialities": "Healthcare services focused on women's reproductive health and wellness."
+        },
+        "Imaging": {
+            "title": "Imaging",
+            "specialities": "Advanced diagnostic imaging services including X-rays, MRI, and CT scans."
+        },
+        "Neurology": {
+            "title": "Neurology",
+            "specialities": "Diagnosis and treatment of nervous system disorders, including brain and spinal cord conditions."
+        },
+        "Nutrition": {
+            "title": "Nutrition",
+            "specialities": "Personalized nutritional counseling and diet planning to support overall health."
+        },
+        "Dentistry": {
+            "title": "Dentistry",
+            "specialities": "Comprehensive dental care including preventive, restorative, and cosmetic treatments."
+        },
+        "Ophthalmology": {
+            "title": "Ophthalmology",
+            "specialities": "Eye care services including vision correction, disease management, and surgery."
+        },
+        "Otorhinology": {
+            "title": "Otorhinology",
+            "specialities": "Diagnosis and treatment of ear, nose, and throat disorders."
+        },
+        "Pediatrics": {
+            "title": "Pediatrics",
+            "specialities": "Medical care for infants, children, and adolescents, focusing on growth and development."
+        },
+        "Pneumology": {
+            "title": "Pneumology",
+            "specialities": "Treatment of respiratory system diseases including asthma and chronic obstructive pulmonary disease."
+        },
+        "Psychology": {
+            "title": "Psychology",
+            "specialities": "Mental health services including counseling, therapy, and psychological assessments."
+        },
+        "Radiology": {
+            "title": "Radiology",
+            "specialities": "Medical imaging to diagnose and guide treatment of various conditions."
+        },
+        "Urology": {
+            "title": "Urology",
+            "specialities": "Care for urinary tract and male reproductive system disorders."
+        }
+    }  
+  },
+  "aboutUs": {
+    "title": "About Clinica Vida",
+    "content": {
+      "paragraph1": "At Clinica Vida, we are dedicated to providing comprehensive and compassionate healthcare to our community. Our team of experienced doctors and specialists is committed to delivering high-quality medical services across a wide range of specialties, including general medicine, cardiology, pediatrics, and more.",
+      "paragraph2": "Our modern facilities are equipped with the latest technology, ensuring accurate diagnoses and effective treatments. We believe in a patient-centered approach, where every individual is treated with respect, empathy, and personalized care.",
+      "paragraph3": "Whether you need routine check-ups, specialized consultations, or emergency care, Clinica Vida is here to support your health and well-being every step of the way."
+    }
+  }
+}

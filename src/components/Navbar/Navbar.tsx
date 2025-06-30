@@ -1,6 +1,17 @@
 import './Navbar.css'
+import { useTranslation } from 'react-i18next'
 
-function Navbar() {
+const Navbar: React.FC = () => {
+  const { t, i18n } = useTranslation();
+
+  // Função para troca de idioma
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
+  // Obtem o idioma atual
+  const currentLanguage = i18n.language
+
   return (
     <header className='main-header'>
       <nav className='navbar'>
@@ -10,23 +21,23 @@ function Navbar() {
         
         <ul className="nav-links">
           <li className="nav-item">
-            <a href="#home" className="nav-link">Home</a>
+            <a href="#home" className="nav-link">{t('navbar.home')}</a>
           </li>
           <li className="nav-item">
-            <a href="#services" className="nav-link">Services</a>
+            <a href="#services" className="nav-link">{t('navbar.services')}</a>
           </li>
           <li className="nav-item">
-            <a href="#doctors" className="nav-link">Doctors</a>
+            <a href="#doctors" className="nav-link">{t('navbar.doctors')}</a>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-link">Contact</a>
+            <a href="#contact" className="nav-link">{t('navbar.contact')}</a>
           </li>
         </ul>
 
         <div className="nav-side language-switcher">
-          <a href="#" className="lang" data-lang="pt">PT</a>
-            <span className="lang-divider">|</span>
-          <a href="#" className="lang" data-lang="en">EN</a>
+          <button className={`lang ${currentLanguage === 'pt' ? 'active' : ''}`} onClick={() => changeLanguage('pt')} type='button'>PT</button>
+          <span className="lang-divider">|</span>
+          <button className={`lang ${currentLanguage === 'en' ? 'active' : ''}`} onClick={() => changeLanguage('en')} type='button'>EN</button>
         </div>
 
         <input type="checkbox" id="menu-hamburguer" className="menu-hamburguer" />
@@ -38,15 +49,15 @@ function Navbar() {
 
         <div className="nav-mobile">
           <ul className="nav-links-mobile">
-            <li><a href="#home" className="nav-link">Home</a></li>
-            <li><a href="#services" className="nav-link">Services</a></li>
-            <li><a href="#doctors" className="nav-link">Doctors</a></li>
-            <li><a href="#contact" className="nav-link">Contact</a></li>
+            <li><a href="#home" className="nav-link">{t('navbar.home')}</a></li>
+            <li><a href="#services" className="nav-link">{t('navbar.services')}</a></li>
+            <li><a href="#doctors" className="nav-link">{t('navbar.doctors')}</a></li>
+            <li><a href="#contact" className="nav-link">{t('navbar.contact')}</a></li>
           </ul>
           <div className="language-switcher-mobile">
-            <a href="#" className="lang" data-lang="pt">PT</a>
+            <button className={`lang ${currentLanguage === 'pt' ? 'active' : ''}`} onClick={() => changeLanguage('pt')} type='button'>PT</button>
             <span className="lang-divider">|</span>
-            <a href="#" className="lang" data-lang="en">EN</a>
+            <button className={`lang ${currentLanguage === 'en' ? 'active' : ''}`} onClick={() => changeLanguage('en')} type='button'>EN</button>
           </div>
         </div>
       </nav>
